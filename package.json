@@ -1,0 +1,9 @@
+{
+  "name": "agentsource-examples",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Reproducible JavaScript examples for timestamps, UTF-8, URL parameters and JSON precision.",
+  "engines": {"node": ">=22"},
+  "scripts": {"test": "node --test examples.test.mjs", "demo": "node examples.mjs"}
+}
