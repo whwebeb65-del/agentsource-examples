@@ -6,6 +6,12 @@
 
 **[打开源栈免费工具](https://agent-source-lab.maple-poppy-4553.chatgpt.site/)** · **[实战示例索引](https://agent-source-lab.maple-poppy-4553.chatgpt.site/examples.html)** · [B站项目介绍与反馈](https://t.bilibili.com/1259475524404641816)
 
+## 新增：把四个边界放进一条请求
+
+[阅读可复制运行的教程：一条请求，四个数据边界](guides/request-boundaries.md)。从长 ID 字符串、明确时间单位、UTF-8 Base64 到重复查询参数，逐个核对输入含义。
+
+也可以直接打开[免费可编辑预演](https://agent-source-lab.maple-poppy-4553.chatgpt.site/cases/node-intake.html)，修改正常输入与反例，查看实际结果。需要整理好的 HTTP 服务、客户端和测试文件时，再看[独立工程包的文件清单与适用范围](https://agent-source-lab.maple-poppy-4553.chatgpt.site/products/integration-kit.html)。免费示例不需要购买。
+
 ## Run / 直接运行
 
 需要 Node.js 22 或更新版本。没有第三方依赖，不需要 `npm install`。
