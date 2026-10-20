@@ -72,6 +72,8 @@ Change the unit to `milliseconds` and compare the UTC result. Change the ID to a
 
 The [browser preview](https://agent-source-lab.maple-poppy-4553.chatgpt.site/cases/node-intake.html), browser tools and this repository remain free. The preview's interface is in Simplified Chinese; its input and output field names match this walkthrough. Processing stays in the browser and does not fetch the example URL.
 
+For a quick check, copy the complete [request-body JSON](https://agent-source-lab.maple-poppy-4553.chatgpt.site/data/intake-request.json) into the preview and run it. Compare the result with the separate [request-and-expected-result fixture](https://agent-source-lab.maple-poppy-4553.chatgpt.site/data/intake-example.json). The fixture wraps the input in `request` and adds `expected`; submit only its `request` property, rather than the whole fixture.
+
 The [separate engineering kit](https://agent-source-lab.maple-poppy-4553.chatgpt.site/products/integration-kit.html) adds organized local files: an HTTP server, client, 15 HTTP integration tests, eight utility modules and 64 base cases. The listed price is CNY 29 for one delivery through Afdian, which requires login. It is local learning and integration material, without a hosted API, authentication, database or production security audit. Free examples require no purchase.
 
 The project and this walkthrough were made with AI assistance. The code block was actually run, including the milliseconds comparison and numeric-ID rejection. The repository's seven independent tests also pass; these checks do not cover arbitrary inputs or establish production readiness.

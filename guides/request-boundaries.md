@@ -6,6 +6,8 @@
 
 **[打开免费的可编辑预演](https://agent-source-lab.maple-poppy-4553.chatgpt.site/cases/node-intake.html)**。预演不要求购买；示例只解析 URL，不会访问示例地址。
 
+先动手：打开[请求体 JSON](https://agent-source-lab.maple-poppy-4553.chatgpt.site/data/intake-request.json)，复制完整内容到预演的“模拟请求体”，点击“运行输入处理”。再用[带预期结果的示例](https://agent-source-lab.maple-poppy-4553.chatgpt.site/data/intake-example.json)核对输出。后一份文件额外包含 `expected`，不能整份作为请求体提交；若使用它，只取 `request` 属性。
+
 ## 先约定一份输入
 
 ```json

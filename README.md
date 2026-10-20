@@ -14,6 +14,8 @@
 
 也可以直接打开[免费可编辑预演](https://agent-source-lab.maple-poppy-4553.chatgpt.site/cases/node-intake.html)，修改正常输入与反例，查看实际结果。需要整理好的 HTTP 服务、客户端和测试文件时，再看[独立工程包的文件清单与适用范围](https://agent-source-lab.maple-poppy-4553.chatgpt.site/products/integration-kit.html)。免费示例不需要购买。
 
+可直接取用[请求体 JSON](https://agent-source-lab.maple-poppy-4553.chatgpt.site/data/intake-request.json)，整份粘贴到预演即可运行；[含预期结果的完整示例](https://agent-source-lab.maple-poppy-4553.chatgpt.site/data/intake-example.json)用于核对输出，两者均免费。
+
 ## Run / 直接运行
 
 需要 Node.js 22 或更新版本。没有第三方依赖，不需要 `npm install`。
