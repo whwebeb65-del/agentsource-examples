@@ -1,5 +1,7 @@
 # 一条请求，四个数据边界
 
+[English walkthrough](request-boundaries.en.md)
+
 接口返回了合法 JSON，不代表里面的数据仍然表达原来的含义。一个长 ID、一个时间戳、一段中文和两个同名查询参数，就足以暴露四种常见问题。
 
 **[打开免费的可编辑预演](https://agent-source-lab.maple-poppy-4553.chatgpt.site/cases/node-intake.html)**。预演不要求购买；示例只解析 URL，不会访问示例地址。

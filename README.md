@@ -10,6 +10,8 @@
 
 [阅读可复制运行的教程：一条请求，四个数据边界](guides/request-boundaries.md)。从长 ID 字符串、明确时间单位、UTF-8 Base64 到重复查询参数，逐个核对输入含义。
 
+教程也有 [English walkthrough](guides/request-boundaries.en.md)，包含同一份输入、可运行代码和预期结果。
+
 也可以直接打开[免费可编辑预演](https://agent-source-lab.maple-poppy-4553.chatgpt.site/cases/node-intake.html)，修改正常输入与反例，查看实际结果。需要整理好的 HTTP 服务、客户端和测试文件时，再看[独立工程包的文件清单与适用范围](https://agent-source-lab.maple-poppy-4553.chatgpt.site/products/integration-kit.html)。免费示例不需要购买。
 
 ## Run / 直接运行

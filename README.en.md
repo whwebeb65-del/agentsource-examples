@@ -6,7 +6,7 @@ Reproducible JavaScript examples for small data-handling mistakes: timestamp uni
 
 ## New: one request, four boundaries
 
-Try the [free editable request preview](https://agent-source-lab.maple-poppy-4553.chatgpt.site/cases/node-intake.html): preserve a long string ID, declare timestamp units, decode UTF-8 Base64, and retain repeated query parameters. The preview and [copyable walkthrough in Chinese](guides/request-boundaries.md) are free. The full interface is currently in Simplified Chinese.
+Try the [free editable request preview](https://agent-source-lab.maple-poppy-4553.chatgpt.site/cases/node-intake.html): preserve a long string ID, declare timestamp units, decode UTF-8 Base64, and retain repeated query parameters. The preview and copyable walkthroughs in [English](guides/request-boundaries.en.md) and [Chinese](guides/request-boundaries.md) are free. The browser interface is currently in Simplified Chinese.
 
 For developers who want organized local files, the [separate kit page](https://agent-source-lab.maple-poppy-4553.chatgpt.site/products/integration-kit.html) lists a Node.js HTTP server, client, 15 integration tests, eight utility modules and 64 base cases. The listed price is CNY 29 for one delivery via Afdian, which requires login. It is local learning material, without a hosted API, authentication, database or production security audit. No purchase is required to use this repository or the browser preview.
 
