@@ -69,6 +69,8 @@ JSON.parse('{"id":"9007199254740993"}').id // '9007199254740993'
 
 不参与计算的长 ID，适合在上下游都约定为字符串。普通 JSON 格式化不能恢复已经损失的精度。
 
+[57 秒实测讲解与完整文字稿](https://agent-source-lab.maple-poppy-4553.chatgpt.site/guides/json-integers.html#json-video-title) 对照数字 ID、字符串 ID 与溢出数值。视频为真实网页截图和原创讲解排版，含 AI 辅助制作及合成语音；无需注册，可直接在网页免费复现。
+
 ## About the project / 关于源栈
 
 源栈提供 8 款免费浏览器工具：JSON、Unix 时间戳、Base64、URL 解析、SHA-256、长度、光子能量、频率与周期。输入在浏览器内处理，页面提供来源与适用范围；没有远程计算 API。

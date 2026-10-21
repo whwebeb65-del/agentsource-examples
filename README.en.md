@@ -55,6 +55,8 @@ JSON.parse('{"id":"9007199254740993"}').id; // '9007199254740993'
 
 A long identifier that is not used in calculations can be represented as a string by agreement across the entire data path. Converting an already-rounded number to a string cannot recover its original digits.
 
+[Watch the 57-second comparison and read the transcript](https://agent-source-lab.maple-poppy-4553.chatgpt.site/guides/json-integers.html#json-video-title): numeric IDs, string IDs, and numeric overflow. The Chinese video combines actual webpage screenshots with original explanatory graphics, AI-assisted composition, and synthetic narration. The browser tool is free and requires no registration.
+
 ## The website
 
 AgentSource provides eight free browser-local tools with documented rules, sources and limits. The English page is an overview; full tool interfaces and guides are currently in Simplified Chinese. Preset links contain public example IDs rather than visitor input.
