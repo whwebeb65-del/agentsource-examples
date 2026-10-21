@@ -4,6 +4,12 @@ Reproducible JavaScript examples for small data-handling mistakes: timestamp uni
 
 [Free browser tools](https://agent-source-lab.maple-poppy-4553.chatgpt.site/en/) · [10 reproducible presets](https://agent-source-lab.maple-poppy-4553.chatgpt.site/examples.html) · [中文说明](README.md)
 
+## Website update: visible JSON number warnings
+
+The [free JSON tool](https://agent-source-lab.maple-poppy-4553.chatgpt.site/tools/json.html) now compares raw numeric tokens with the browser's serialized number representation. It flags rounding, unsafe integers, overflow, underflow and negative zero, and can select the original token. Try `{"id":9007199254740993}`, then quote the ID and compare. The homepage lab and compatible browser agents receive the same diagnostics. The interface is in Simplified Chinese.
+
+This is a website update; this repository's example APIs are unchanged. The warnings do not provide lossless parsing, duplicate-key detection or a guarantee of decimal arithmetic precision. [Release details and scope](https://agent-source-lab.maple-poppy-4553.chatgpt.site/updates.html#json-number-warnings).
+
 ## New: one request, four boundaries
 
 Try the [free editable request preview](https://agent-source-lab.maple-poppy-4553.chatgpt.site/cases/node-intake.html): preserve a long string ID, declare timestamp units, decode UTF-8 Base64, and retain repeated query parameters. The preview and copyable walkthroughs in [English](guides/request-boundaries.en.md) and [Chinese](guides/request-boundaries.md) are free. The browser interface is currently in Simplified Chinese.

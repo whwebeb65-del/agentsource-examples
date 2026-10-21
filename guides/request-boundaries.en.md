@@ -68,6 +68,12 @@ Expected output:
 
 Change the unit to `milliseconds` and compare the UTC result. Change the ID to a JSON number and check that the example rejects it.
 
+## Inspect number changes in the browser
+
+Paste `{"id":9007199254740993}` into the [free JSON tool](https://agent-source-lab.maple-poppy-4553.chatgpt.site/tools/json.html). It displays the original token alongside `9007199254740992`; its locate button selects that input token. Run again with `{"id":"9007199254740993"}` to compare: the quoted ID does not trigger a numeric warning. The interface is in Simplified Chinese.
+
+The homepage lab uses the same diagnostics. Compatible browser agents receive `numberWarnings` with the total, first five details and omitted count. This still uses JSON.parse / JSON.stringify. It is not a lossless JSON parser, does not detect duplicate keys, and does not guarantee decimal arithmetic precision. These diagnostics are a website feature, not a new export in this repository.
+
 ## Try first; buy organized files only if needed
 
 The [browser preview](https://agent-source-lab.maple-poppy-4553.chatgpt.site/cases/node-intake.html), browser tools and this repository remain free. The preview's interface is in Simplified Chinese; its input and output field names match this walkthrough. Processing stays in the browser and does not fetch the example URL.

@@ -6,6 +6,12 @@
 
 **[打开源栈免费工具](https://agent-source-lab.maple-poppy-4553.chatgpt.site/)** · **[实战示例索引](https://agent-source-lab.maple-poppy-4553.chatgpt.site/examples.html)** · [B站项目介绍与反馈](https://t.bilibili.com/1259475524404641816)
 
+## 网页更新：直接看见 JSON 数值风险
+
+[免费 JSON 工具](https://agent-source-lab.maple-poppy-4553.chatgpt.site/tools/json.html)现在会对比原始数字与浏览器数值表示，提示舍入、不安全整数、溢出、下溢及负零，并可定位输入。试试 `{"id":9007199254740993}`，再将 ID 改为字符串比较。首页快速体验和支持的浏览器代理也提供相同提醒。
+
+这是网页体验的更新；本仓库示例接口保持原样。提醒不提供无损解析，不检测重复键，也不保证小数运算精确。[更新与范围说明](https://agent-source-lab.maple-poppy-4553.chatgpt.site/updates.html#json-number-warnings)。
+
 ## 新增：把四个边界放进一条请求
 
 [阅读可复制运行的教程：一条请求，四个数据边界](guides/request-boundaries.md)。从长 ID 字符串、明确时间单位、UTF-8 Base64 到重复查询参数，逐个核对输入含义。
