@@ -6,6 +6,10 @@
 
 **[打开源栈免费工具](https://agent-source-lab.maple-poppy-4553.chatgpt.site/)** · **[实战示例索引](https://agent-source-lab.maple-poppy-4553.chatgpt.site/examples.html)** · [B站项目介绍与反馈](https://t.bilibili.com/1259475524404641816)
 
+## 新教程：URL 参数为什么少了一个 tag？
+
+[中文教程](guides/url-parameters.md) · [English walkthrough](guides/url-parameters.en.md) · [一键运行网页预设](https://agent-source-lab.maple-poppy-4553.chatgpt.site/tools/url.html?example=url-tags)。比较 `get`、`getAll` 和 `Object.fromEntries`，再复现查询串中加号与空格的差别，以及直接拼接 Base64 的问题。运行 `node guides/url-parameters-demo.mjs` 可核对 9 个断言；没有第三方依赖或网络请求。
+
 ## 网页更新：直接看见 JSON 数值风险
 
 [免费 JSON 工具](https://agent-source-lab.maple-poppy-4553.chatgpt.site/tools/json.html)现在会对比原始数字与浏览器数值表示，提示舍入、不安全整数、溢出、下溢及负零，并可定位输入。试试 `{"id":9007199254740993}`，再将 ID 改为字符串比较。首页快速体验和支持的浏览器代理也提供相同提醒。
