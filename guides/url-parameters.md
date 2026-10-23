@@ -2,6 +2,8 @@
 
 [English](url-parameters.en.md) · [一键打开免费网页示例](https://agent-source-lab.maple-poppy-4553.chatgpt.site/tools/url.html?example=url-tags)
 
+先看 [28 秒视频、可选字幕与完整文字稿](https://agent-source-lab.maple-poppy-4553.chatgpt.site/guides/url-duplicates.html#url-video-title)，或在 [B站观看](https://www.bilibili.com/video/BV1nZna65Es4/)。视频为 AI 辅助的原创排版、实际网页截图与本机合成语音，非连续录屏。
+
 用这条合成 URL 复现，不需要账号，也不会访问 example.com：
 
 ```text

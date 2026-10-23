@@ -2,6 +2,8 @@
 
 [中文](url-parameters.md) · [Open the free browser example](https://agent-source-lab.maple-poppy-4553.chatgpt.site/tools/url.html?example=url-tags)
 
+The [28-second Chinese walkthrough](https://agent-source-lab.maple-poppy-4553.chatgpt.site/guides/url-duplicates.html#url-video-title) includes optional Chinese captions and a transcript; no registration is required. It is also [on Bilibili](https://www.bilibili.com/video/BV1nZna65Es4/). AI-assisted original graphics and actual webpage screenshots accompany local synthetic narration; this is not a continuous screen recording.
+
 This synthetic URL contains two tags, a space, and a literal plus sign:
 
 ```text

@@ -8,6 +8,8 @@ Reproducible JavaScript examples for small data-handling mistakes: timestamp uni
 
 [English guide](guides/url-parameters.en.md) · [中文教程](guides/url-parameters.md) · [Open the browser preset](https://agent-source-lab.maple-poppy-4553.chatgpt.site/tools/url.html?example=url-tags). Compare `get`, `getAll`, and `Object.fromEntries`, then reproduce plus-to-space decoding and direct Base64 interpolation. Run `node guides/url-parameters-demo.mjs` for 9 assertions, with no dependencies or network requests.
 
+A [28-second Chinese video and transcript](https://agent-source-lab.maple-poppy-4553.chatgpt.site/guides/url-duplicates.html#url-video-title) is available without registration, with optional Chinese captions. Also [watch on Bilibili](https://www.bilibili.com/video/BV1nZna65Es4/). The video uses AI-assisted original graphics, actual webpage screenshots, and local synthetic narration.
+
 ## Website update: visible JSON number warnings
 
 The [free JSON tool](https://agent-source-lab.maple-poppy-4553.chatgpt.site/tools/json.html) now compares raw numeric tokens with the browser's serialized number representation. It flags rounding, unsafe integers, overflow, underflow and negative zero, and can select the original token. Try `{"id":9007199254740993}`, then quote the ID and compare. The homepage lab and compatible browser agents receive the same diagnostics. The interface is in Simplified Chinese.
