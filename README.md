@@ -6,7 +6,17 @@
 
 **[打开源栈免费工具](https://agent-source-lab.maple-poppy-4553.chatgpt.site/)** · **[实战示例索引](https://agent-source-lab.maple-poppy-4553.chatgpt.site/examples.html)** · [B站项目介绍与反馈](https://t.bilibili.com/1259475524404641816)
 
-## 新教程：URL 参数为什么少了一个 tag？
+## 接口调试短视频
+
+| B 站讲解 | 免费试用 |
+| --- | --- |
+| [JSON 长 ID 最后一位变了](https://www.bilibili.com/video/BV14jWV6GEsB/) | [在网页复现](https://agent-source-lab.whwebeb65.chatgpt.site/tools/json-id-string) |
+| [同一个时间戳：秒和毫秒](https://www.bilibili.com/video/BV14jWV6GEag/) | [在网页复现](https://agent-source-lab.whwebeb65.chatgpt.site/tools/timestamp) |
+| [中文转 Base64：先取 UTF-8 字节](https://www.bilibili.com/video/BV14jWV6GEvi/) | [在网页复现](https://agent-source-lab.whwebeb65.chatgpt.site/tools/base64?example=base64-cn) |
+
+每条约 30 秒，使用公开测试数据、原创图解与本机合成语音，含 AI 辅助制作。
+
+## URL 参数为什么少了一个 tag？
 
 [中文教程](guides/url-parameters.md) · [English walkthrough](guides/url-parameters.en.md) · [一键运行网页预设](https://agent-source-lab.maple-poppy-4553.chatgpt.site/tools/url.html?example=url-tags)。比较 `get`、`getAll` 和 `Object.fromEntries`，再复现查询串中加号与空格的差别，以及直接拼接 Base64 的问题。运行 `node guides/url-parameters-demo.mjs` 可核对 9 个断言；没有第三方依赖或网络请求。
 

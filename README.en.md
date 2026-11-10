@@ -4,7 +4,17 @@ Reproducible JavaScript examples for small data-handling mistakes: timestamp uni
 
 [Free browser tools](https://agent-source-lab.maple-poppy-4553.chatgpt.site/en/) · [10 reproducible presets](https://agent-source-lab.maple-poppy-4553.chatgpt.site/examples.html) · [中文说明](README.md)
 
-## New walkthrough: why did one query parameter disappear?
+## Short debugging demos
+
+| Chinese video on Bilibili | Free example |
+| --- | --- |
+| [JSON long IDs lose their last digit](https://www.bilibili.com/video/BV14jWV6GEsB/) | [Try the browser tool](https://agent-source-lab.whwebeb65.chatgpt.site/tools/json-id-string) |
+| [Seconds versus milliseconds](https://www.bilibili.com/video/BV14jWV6GEag/) | [Try the browser tool](https://agent-source-lab.whwebeb65.chatgpt.site/tools/timestamp) |
+| [Base64-encoding Chinese text with UTF-8](https://www.bilibili.com/video/BV14jWV6GEvi/) | [Try the browser tool](https://agent-source-lab.whwebeb65.chatgpt.site/tools/base64?example=base64-cn) |
+
+Each video is about 30 seconds, with public sample data, AI-assisted original graphics and local synthetic narration. The browser tools use Simplified Chinese.
+
+## Walkthrough: why did one query parameter disappear?
 
 [English guide](guides/url-parameters.en.md) · [中文教程](guides/url-parameters.md) · [Open the browser preset](https://agent-source-lab.maple-poppy-4553.chatgpt.site/tools/url.html?example=url-tags). Compare `get`, `getAll`, and `Object.fromEntries`, then reproduce plus-to-space decoding and direct Base64 interpolation. Run `node guides/url-parameters-demo.mjs` for 9 assertions, with no dependencies or network requests.
 
