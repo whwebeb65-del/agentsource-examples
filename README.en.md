@@ -4,6 +4,12 @@ Reproducible JavaScript examples for small data-handling mistakes: timestamp uni
 
 [Free browser tools](https://agent-source-lab.maple-poppy-4553.chatgpt.site/en/) · [10 reproducible presets](https://agent-source-lab.maple-poppy-4553.chatgpt.site/examples.html) · [中文说明](README.md)
 
+## Run two HTTP requests on your computer
+
+Download the [free single-file demo](guides/node-http-preview.mjs) and run `node node-http-preview.mjs` in its directory with Node.js 22+. It starts a temporary loopback server, sends two fixed requests, checks HTTP 200 for a string ID and HTTP 400 for a numeric ID, then exits.
+
+[Chinese video walkthrough](https://www.bilibili.com/video/BV12asD6SEH3/) · [Download instructions and full kit contents](https://agent-source-lab.whwebeb65.chatgpt.site/products/integration-kit#http-preview). The video uses AI-assisted original graphics and local synthetic narration.
+
 ## Short debugging demos
 
 | Chinese video on Bilibili | Free example |

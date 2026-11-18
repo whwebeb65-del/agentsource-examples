@@ -6,6 +6,12 @@
 
 **[打开源栈免费工具](https://agent-source-lab.maple-poppy-4553.chatgpt.site/)** · **[实战示例索引](https://agent-source-lab.maple-poppy-4553.chatgpt.site/examples.html)** · [B站项目介绍与反馈](https://t.bilibili.com/1259475524404641816)
 
+## 先在自己的电脑跑通两次 HTTP 请求
+
+下载[免费试跑文件](guides/node-http-preview.mjs)，在文件所在目录运行 `node node-http-preview.mjs`。需要 Node.js 22+，脚本在临时本机端口发送两个固定请求，核对字符串 ID 的 HTTP 200 与数字 ID 的 HTTP 400，完成后退出。
+
+[35 秒操作讲解](https://www.bilibili.com/video/BV12asD6SEH3/) · [下载页、运行说明和完整版清单](https://agent-source-lab.whwebeb65.chatgpt.site/products/integration-kit#http-preview)。视频使用 AI 辅助制作的原创图解与本机合成语音。
+
 ## 接口调试短视频
 
 | B 站讲解 | 免费试用 |
